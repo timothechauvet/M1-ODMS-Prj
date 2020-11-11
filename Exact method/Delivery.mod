@@ -5,7 +5,7 @@
  *********************************************/
 
 //Problem data
- int n=...;
+ int nbrCustomer=...;
  {int} customerSet=...;
  int deliveryMat[customerSet][customerSet]=...;
  int dueDate[customerSet]=...;
