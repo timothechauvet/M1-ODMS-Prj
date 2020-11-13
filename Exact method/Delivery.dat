@@ -5,7 +5,7 @@
  * Creation Date: 30 oct. 2020 at 09:17:32
  *********************************************/
  /* Indexes */
-n 			= 8;
+nbrCustomer		= 8;
 customerSet = {0, 1, 2, 3, 4, 5, 6, 7};
 
  /* Data */
