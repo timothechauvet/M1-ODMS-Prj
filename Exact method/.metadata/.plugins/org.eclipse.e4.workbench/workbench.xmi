@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6b1aYRqHEeuab8XEJhhyrw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_6b2BcBqHEeuab8XEJhhyrw" bindingContexts="_6b2BdhqHEeuab8XEJhhyrw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ilog.odms.ide.ui.editors.ModelEditor&quot; name=&quot;Delivery.mod&quot; tooltip=&quot;DeliveryProblem/Delivery.mod&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DeliveryProblem/Delivery.mod&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ilog.odms.ide.ui.editors.DataEditor&quot; name=&quot;Delivery.dat&quot; tooltip=&quot;DeliveryProblem/Delivery.dat&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DeliveryProblem/Delivery.dat&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.jsdt.chromium.debug.ui.editors.JsEditor&quot; name=&quot;Delivery.mod&quot; tooltip=&quot;DeliveryProblem/Delivery.mod&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DeliveryProblem/Delivery.mod&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ilog.odms.ide.ui.editors.DataEditor&quot; name=&quot;Delivery.dat&quot; tooltip=&quot;DeliveryProblem/Delivery.dat&quot;>&#xD;&#xA;&lt;persistable path=&quot;/DeliveryProblem/Delivery.dat&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6b2BcBqHEeuab8XEJhhyrw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_7RXUMBqHEeuab8XEJhhyrw" x="953" y="0" width="974" height="1047">
@@ -11,6 +11,7 @@
     <persistedState key="aggregateWorkingSetId"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_7RXUMBqHEeuab8XEJhhyrw" selectedElement="_7RXUMRqHEeuab8XEJhhyrw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_7RXUMRqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_7dJtcBqHEeuab8XEJhhyrw">
         <children xsi:type="advanced:Perspective" xmi:id="_7dJtcBqHEeuab8XEJhhyrw" elementId="ilog.odms.ide.ui.perspective" selectedElement="_7dJtcRqHEeuab8XEJhhyrw" label="OPL" iconURI="platform:/plugin/ilog.odms.ide.ui/$nl$/icons/full/eview16/odmsperspective.png">
@@ -49,10 +50,9 @@
           <tags>persp.viewSC:ilog.odms.ide.server.ui.ServersView</tags>
           <tags>persp.viewSC:ilog.odms.ide.wml.ui.WmlView</tags>
           <tags>persp.viewSC:ilog.odms.ide.oaas.ui.ServersView</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_7dJtcRqHEeuab8XEJhhyrw" selectedElement="_7dKUgBqHEeuab8XEJhhyrw" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUgBqHEeuab8XEJhhyrw" containerData="2500" selectedElement="_7dKUgRqHEeuab8XEJhhyrw">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_7dJtcRqHEeuab8XEJhhyrw" selectedElement="_7dKUihqHEeuab8XEJhhyrw" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUgBqHEeuab8XEJhhyrw" containerData="1319" selectedElement="_7dKUgRqHEeuab8XEJhhyrw">
               <children xsi:type="basic:PartStack" xmi:id="_7dKUgRqHEeuab8XEJhhyrw" elementId="topLeft" containerData="5000" selectedElement="_7dKUghqHEeuab8XEJhhyrw">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_7dKUghqHEeuab8XEJhhyrw" elementId="ilog.odms.ide.ui.navigator.OplProjectExplorer" ref="_7ckeoBqHEeuab8XEJhhyrw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_7dKUgxqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_7cowEBqHEeuab8XEJhhyrw"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_7dKUhBqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_7cowERqHEeuab8XEJhhyrw"/>
@@ -64,10 +64,10 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_7dKUiRqHEeuab8XEJhhyrw" elementId="org.eclipse.debug.ui.BreakpointView" ref="_7c6c4BqHEeuab8XEJhhyrw"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUihqHEeuab8XEJhhyrw" containerData="7500" selectedElement="_7dKUixqHEeuab8XEJhhyrw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUihqHEeuab8XEJhhyrw" containerData="8681" selectedElement="_7dKUixqHEeuab8XEJhhyrw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUixqHEeuab8XEJhhyrw" containerData="7500" selectedElement="_7dKUjBqHEeuab8XEJhhyrw" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_7dKUjBqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_7cN5UBqHEeuab8XEJhhyrw"/>
-                <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUjRqHEeuab8XEJhhyrw" containerData="2500">
+                <children xsi:type="advanced:Placeholder" xmi:id="_7dKUjBqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.editorss" containerData="7741" ref="_7cN5UBqHEeuab8XEJhhyrw"/>
+                <children xsi:type="basic:PartSashContainer" xmi:id="_7dKUjRqHEeuab8XEJhhyrw" containerData="2259">
                   <children xsi:type="basic:PartStack" xmi:id="_7dKUjhqHEeuab8XEJhhyrw" elementId="topRight" containerData="8000" selectedElement="_7dKUjxqHEeuab8XEJhhyrw">
                     <children xsi:type="advanced:Placeholder" xmi:id="_7dKUjxqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.views.ContentOutline" ref="_7cp-MBqHEeuab8XEJhhyrw"/>
                   </children>
@@ -127,16 +127,19 @@
         <children xsi:type="basic:PartStack" xmi:id="_7cN5URqHEeuab8XEJhhyrw" elementId="org.eclipse.e4.primaryDataStack" containerData="5000" selectedElement="_Vn0qkBqIEeuab8XEJhhyrw">
           <tags>org.eclipse.e4.primaryDataStack</tags>
           <tags>EditorStack</tags>
+          <tags>active</tags>
           <children xsi:type="basic:Part" xmi:id="_Vn0qkBqIEeuab8XEJhhyrw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Delivery.mod" iconURI="platform:/plugin/ilog.odms.ide.ui/icons/full/obj16/model.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ilog.odms.ide.ui.editors.ModelEditor&quot; name=&quot;Delivery.mod&quot; partName=&quot;Delivery.mod&quot; title=&quot;Delivery.mod&quot; tooltip=&quot;DeliveryProblem/Delivery.mod&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/DeliveryProblem/Delivery.mod&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;101&quot; selectionTopPixel=&quot;3&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ilog.odms.ide.ui.editors.ModelEditor&quot; name=&quot;Delivery.mod&quot; partName=&quot;Delivery.mod&quot; title=&quot;Delivery.mod&quot; tooltip=&quot;DeliveryProblem/Delivery.mod&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/DeliveryProblem/Delivery.mod&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;312&quot; selectionTopPixel=&quot;3&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>ilog.odms.ide.ui.editors.ModelEditor</tags>
             <tags>removeOnHide</tags>
+            <tags>active</tags>
+            <tags>activeOnClose</tags>
           </children>
         </children>
         <children xsi:type="basic:PartStack" xmi:id="_wNdg4RqSEeuab8XEJhhyrw" elementId="PartStack@79f49fbc" containerData="5000" selectedElement="_W96TwBqIEeuab8XEJhhyrw">
           <children xsi:type="basic:Part" xmi:id="_W96TwBqIEeuab8XEJhhyrw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Delivery.dat" iconURI="platform:/plugin/ilog.odms.ide.ui/icons/full/obj16/data.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ilog.odms.ide.ui.editors.DataEditor&quot; name=&quot;Delivery.dat&quot; partName=&quot;Delivery.dat&quot; title=&quot;Delivery.dat&quot; tooltip=&quot;DeliveryProblem/Delivery.dat&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/DeliveryProblem/Delivery.dat&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;704&quot; selectionTopPixel=&quot;93&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ilog.odms.ide.ui.editors.DataEditor&quot; name=&quot;Delivery.dat&quot; partName=&quot;Delivery.dat&quot; title=&quot;Delivery.dat&quot; tooltip=&quot;DeliveryProblem/Delivery.dat&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/DeliveryProblem/Delivery.dat&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;485&quot; selectionTopPixel=&quot;93&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>ilog.odms.ide.ui.editors.DataEditor</tags>
             <tags>removeOnHide</tags>
@@ -147,11 +150,9 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_7ckeoBqHEeuab8XEJhhyrw" elementId="ilog.odms.ide.ui.navigator.OplProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Projets OPL" iconURI="platform:/plugin/ilog.odms.ide.ui/icons/full/eview16/oplprojectexplorer.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="ilog.odms.ide.ui.navigator.IloProjectNavigator"/>
       <persistedState key="originalCompatibilityViewBundle" value="ilog.odms.ide.ui"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblem&quot;/>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblemRCon\figu\rations d&amp;apos;ex&#xe9;cution&quot;/>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblemRCon\figu\rations d&amp;apos;ex&#xe9;cutionrCon\figu\ration 1&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblemRCon\figu\rations d&amp;apos;ex&#xe9;cutionrCon\figu\ration 1&quot;/>&#xD;&#xA;&lt;/selection>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblem&quot;/>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblemRCon\figu\rations d&amp;apos;ex&#xe9;cution&quot;/>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblemRCon\figu\rations d&amp;apos;ex&#xe9;cutionrCon\figu\ration 1&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection>&#xD;&#xA;&lt;element identifier=&quot;=Delive\ryP\roblemfDelive\ry.mod&quot;/>&#xD;&#xA;&lt;/selection>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:OPL</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_7hwgoBqHEeuab8XEJhhyrw" elementId="ilog.odms.ide.ui.navigator.OplProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -1581,7 +1582,7 @@
   <addons xmi:id="_6b2ogxqHEeuab8XEJhhyrw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_6b2ohBqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_6cHHMBqHEeuab8XEJhhyrw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_C7UioRqdEeuGn8HQ4yw91A" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_6dC7UBqHEeuab8XEJhhyrw" elementId="org.eclipse.team.ui.category.team" name="Equipe" description="Actions applicables lors de l'utilisation d'une &#xe9;quipe"/>
   <categories xmi:id="_6dC7URqHEeuab8XEJhhyrw" elementId="org.eclipse.ui.category.views" name="Vues" description="Commandes d'ouverture des vues"/>

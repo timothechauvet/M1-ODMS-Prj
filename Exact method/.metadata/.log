@@ -420,3 +420,36 @@ org.eclipse.core.runtime.CoreException: Aucun testeur de propriété ne fournit 
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2020-10-30 11:49:13.603
 !MESSAGE Aucun testeur de propriété ne fournit de propriété org.eclipse.wst.jsdt.chromium.debug.core.isJsFile au type class ilog.odms.ide.internal.core.IloModelFileImpl
+
+!ENTRY ilog.odms.ide.opllang 1 0 2020-10-30 11:50:16.967
+!MESSAGE concert_wrap.IloEndMT
+!SESSION 2020-11-03 15:35:43.494 -----------------------------------------------
+eclipse.buildId=Build R0
+java.fullversion=8.0.5.41 - pwa6480sr5fp41-20190919_01(SR5 FP41)
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20190911_427071 (JIT enabled, AOT enabled)
+OpenJ9   - d581d49
+OMR      - ca4db84
+IBM      - 5cfdf9c
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY ilog.odms.ide.core 1 0 2020-11-03 15:37:09.908
+!MESSAGE ODM Bundle is OFF
+
+!ENTRY ilog.odms.ide.opllang 1 0 2020-11-03 17:55:39.388
+!MESSAGE concert_wrap.IloEndMT
+!SESSION 2020-11-06 10:51:04.877 -----------------------------------------------
+eclipse.buildId=Build R0
+java.fullversion=8.0.5.41 - pwa6480sr5fp41-20190919_01(SR5 FP41)
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20190911_427071 (JIT enabled, AOT enabled)
+OpenJ9   - d581d49
+OMR      - ca4db84
+IBM      - 5cfdf9c
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -clean
+
+!ENTRY ilog.odms.ide.core 1 0 2020-11-06 10:51:52.382
+!MESSAGE ODM Bundle is OFF
+
+!ENTRY ilog.odms.ide.opllang 1 0 2020-11-06 10:53:42.685
+!MESSAGE concert_wrap.IloEndMT
